@@ -5,7 +5,7 @@
 	"type": "library",
 	"description": "FPDI is a collection of PHP classes facilitating developers to read pages from existing PDF documents",
 	"keywords": ["pdf","fpdi"],
-	"license": "Apache Software License, Version 2.0",
+	"license": "ASL 2.0",
 	"require": {
 		"php": ">=5.3.0"
 	},
