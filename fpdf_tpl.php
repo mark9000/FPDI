@@ -321,7 +321,7 @@ class FPDF_TPL extends FPDF {
     /**
      * Preserve adding Links in Templates ...won't work
      */
-    function Link($x, $y, $w, $h, $link) {
+    public function Link($x, $y, $w, $h, $link, $spaces=0) {
         if (is_subclass_of($this, 'TCPDF')) {
         	$args = func_get_args();
 			return call_user_func_array(array($this, 'TCPDF::Link'), $args);
