@@ -306,7 +306,7 @@ class FPDF_TPL extends FPDF {
      *
      * AddPage is not available when you're "in" a template.
      */
-    function AddPage($orientation = '', $format = '') {
+    public function AddPage($orientation='', $format='', $keepmargins=false, $tocpage=false) {
     	if (is_subclass_of($this, 'TCPDF')) {
         	$args = func_get_args();
         	return call_user_func_array(array($this, 'TCPDF::AddPage'), $args);
