@@ -3,7 +3,7 @@
 	"version": "1.4.2",
 	"homepage": "http://www.setasign.de/",
 	"type": "library",
-	"description": "FPDI is a collection of PHP classes facilitating developers to read pages from existing PDF documents",
+	"description": "FPDI is a collection of PHP classes facilitating developers to read pages from existing PDF documents. This package contains some special fixes for use with TCPDF.",
 	"keywords": ["pdf","fpdi"],
 	"license": "ASL 2.0",
 	"require": {
