@@ -1,6 +1,6 @@
 <?php
 //
-//  FPDI - Version 1.5.1
+//  FPDI - Version 1.5.2
 //
 //    Copyright 2004-2014 Setasign - Jan Slabon
 //
@@ -142,7 +142,7 @@ class FPDF_TPL extends fpdi_bridge
             $fontKey = $this->FontFamily . $this->FontStyle;
             if ($fontKey) {
                 $this->_res['tpl'][$this->tpl]['fonts'][$fontKey] =& $this->fonts[$fontKey];
-                $this->_out(sprintf('BT /F%d %.2f Tf ET', $this->CurrentFont['i'], $this->FontSizePt));
+                $this->_out(sprintf('BT /F%d %.2F Tf ET', $this->CurrentFont['i'], $this->FontSizePt));
             }
         }
 
