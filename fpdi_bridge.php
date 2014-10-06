@@ -1,6 +1,6 @@
 <?php
 //
-//  FPDI - Version 1.5.1
+//  FPDI - Version 1.5.2
 //
 //    Copyright 2004-2014 Setasign - Jan Slabon
 //
@@ -25,7 +25,7 @@
  * This way it is possible to use FPDI for both FPDF and TCPDF with one FPDI version.
  */
 
-if (!class_exists('TCPDF', true)) {
+if (!class_exists('TCPDF', false)) {
     /**
      * Class fpdi_bridge
      */
