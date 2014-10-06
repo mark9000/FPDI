@@ -1,6 +1,6 @@
 <?php
 //
-//  FPDI - Version 1.5.1
+//  FPDI - Version 1.5.2
 //
 //    Copyright 2004-2014 Setasign - Jan Slabon
 //
