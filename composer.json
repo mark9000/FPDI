@@ -6,6 +6,7 @@
 	"description": "FPDI is a collection of PHP classes facilitating developers to read pages from existing PDF documents. This package contains some special fixes for use with TCPDF.",
 	"keywords": ["pdf","fpdi"],
 	"license": "ASL 2.0",
+	"minimum-stability": "dev",
 	"require": {
 		"php": ">=5.3.0"
 	},
